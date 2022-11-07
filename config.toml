@@ -1,4 +1,4 @@
 baseURL = 'https://akataurus.github.io/sketching/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Sketching with Hardware 1, David J.'
 theme = "gohugo-theme-ananke-master"
