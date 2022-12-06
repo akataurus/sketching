@@ -18,11 +18,11 @@ draft: false
 
 ![single button](../../static/single_btn.jpg)
 
-<img src="/single_btn.jpg" />
+{{<img src="/single_btn.jpg" />}}
 
-<img src="/static/single_btn.jpg" />
+{{<img src="/static/single_btn.jpg" />}}
 
-<img src="../../static/single_btn.jpg" />
+{{<img src="../../static/single_btn.jpg" />}}
 
 
  Da auch das ohne größere Probleme funktioniert hat, wollte ich ein neues Bauteil ausprobieren. Mithilfe eines kleinen Speakers und einer Matrix aus Buttons versuchte ich eine Art "Klavier" zu bauen das je nach dem welcher der 16 Buttons gedrückt wurde, einen verschieden hohen Ton von sich gibt. Die Verkabelung ging mithilfe einer Anleitung recht intuitiv, allerdings war das Problem dann softwareseitig. Zunächst musste ich die Buttons in einem Array speichern und ihnen anschließend die richtigen Töne zuweisen. 
