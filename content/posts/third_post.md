@@ -22,4 +22,12 @@ An diesem Tag war mein Ziel mit einem LED-Strip herumzuspielen um schonmal einze
 
 ![button matrix](../../static/bauteil_12V.jpg)
 
-Im Laufe der weiteren 
+Im Laufe der weiteren arbeiten stellte sich allerdings heraus dass die LED-Leiste doch mit 5 Volt betrieben wird und sich meine Mühen als umsonst herausgestellt haben.
+
+## 30. November 2022
+
+Am letzten Mittwoch unserer "Experimente" wollte ich mein Wissen über Optoelektronik in Verbindung mit Arduino vertiefen indem ich mir eine LED-Matrix genauer anschaute. Mit verschiedenen Libraries wollte ich ein paar Animationen anzeigen lassen, allerdings waren meine Versuche nicht unbedingt mit Erfolg gekührt. Mein größtes Erfolgserlebnis war, dass alle LEDs geleuchtet haben.
+
+![single button](led_matrix.jpg)
+
+Anschließend wittmete ich mich der Planung meines Projekts. Ich hielt es für einen guten Einstieg, mich mit der SWU-Api vertraut zu machen. Dafür schaute ich mir die verschiedenen json-Dateien an, die die SWU zur Verfügung stellt. Besonders die Live-Daten waren dabei wichtig, weil alle 15 Sekunden der Standort aller S-Bahnen aktualisiert wird. Am Ende des Tages gelang es mir herauszufinden, wofür welche Dateien da sind und welche Informationen sie bereitstellen. Und so konnte ich doch noch mit einem kleinen Erfolgserlebnis nach Hause gehen.
