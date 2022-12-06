@@ -12,9 +12,9 @@ draft: false
 
 {{<figure src="/img/single_btn.jpg"  width="60%"  height="60%">}}
 
-![single button](single_btn.jpg)
+![single button](/single_btn.jpg)
 
-![single button](/img/single_btn.jpg)
+![single button](/static/single_btn.jpg)
 
 
 
