@@ -12,13 +12,11 @@ draft: false
 
 {{<figure src="/img/single_btn.jpg"  width="60%"  height="60%">}}
 
-![single button](../img/single_btn.jpg)
+![single button](single_btn.jpg)
 
 ![single button](/img/single_btn.jpg)
 
-{{ with .Resources.GetMatch "single_btn.jpg" }}
-  <img src="data:{{ .MediaType }};base64,{{ .Content | base64Encode }}">
-{{ end }}
+
 
  Da auch das ohne größere Probleme funktioniert hat, wollte ich ein neues Bauteil ausprobieren. Mithilfe eines kleinen Speakers und einer Matrix aus Buttons versuchte ich eine Art "Klavier" zu bauen das je nach dem welcher der 16 Buttons gedrückt wurde, einen verschieden hohen Ton von sich gibt. Die Verkabelung ging mithilfe einer Anleitung recht intuitiv, allerdings war das Problem dann softwareseitig. Zunächst musste ich die Buttons in einem Array speichern und ihnen anschließend die richtigen Töne zuweisen. 
 
