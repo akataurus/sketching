@@ -1,5 +1,5 @@
 ---
-title: "My Second Fr"
+title: "Elektrotechnik Labor"
 date: 2022-11-15T16:20:18+01:00
 draft: true
 ---
